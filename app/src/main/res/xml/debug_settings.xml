@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="pvr_debug_appfps"
+        android:title="@string/pvr_debug_appfps"
+        android:summary="@string/pvr_debug_appfps_summary"/>
+    <SwitchPreference
+        android:key="pvr_debug_sysstatus"
+        android:title="@string/pvr_debug_sysstatus"
+        android:summary="@string/pvr_debug_sysstatus_summary"/>
+    <ListPreference
+        android:key="pvr_sdk_trackingmode"
+        android:title="@string/pvr_sdk_trackingmode_title"
+        android:dialogTitle="@string/pvr_sdk_trackingmode_dialog_title"
+        android:entries="@array/pvr_sdk_trackingmode_entries"
+        android:entryValues="@array/pvr_sdk_trackingmode_values" />
+    <ListPreference
+        android:key="pvr_service_trackingmode"
+        android:title="@string/pvr_service_trackingmode_title"
+        android:dialogTitle="@string/pvr_service_trackingmode_dialog_title"
+        android:entries="@array/pvr_service_trackingmode_entries"
+        android:entryValues="@array/pvr_service_trackingmode_values" />
+    <ListPreference
+        android:key="pvr_display_fps_mode"
+        android:title="@string/pvr_display_fps_title"
+        android:dialogTitle="@string/pvr_display_fps_dialog_title"
+        android:entries="@array/pvr_display_fps_entries"
+        android:entryValues="@array/pvr_display_fps_values" />
+</PreferenceScreen>

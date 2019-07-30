@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hardware_version_title">虚拟现实头盔硬件版本</string>
+    <string name="software_version_title">虚拟现实头盔软件版本</string>
+
+    <string name="version_info">版本信息</string>
+    <string name="hmd_serial_number">虚拟现实头盔硬件串号</string>
+    <string name="box_serial_number">虚拟现实手柄硬件串号</string>
+    <string name="pico_cit_category">CIT</string>
+    <string name="pico_automated_cit_keys">自动化CIT</string>
+    <string name="pico_manumotive_cit_keys">手动CIT</string>
+    <string name="open_cit_keys_fatal">开启CIT失败</string>
+    <string name="logcatch_title">Log设置</string>
+    <string name="reset_phone">恢复出厂设置</string>
+    <string name="pico_reset_phone_title">恢复出厂设置</string>
+    <string name="pico_reset_phone_sum">恢复出厂设置，保留SD卡内容</string>
+    <string name="hmd_category_title">头戴设置</string>
+    <string name="hmd_switch_onoff">头戴自动切换设置</string>
+    <string name="hmd_switch_onoff_summary">当插入新头戴时是否允许自动适配（需自动重启设备）</string>
+    <string name="pico_country_code">国家码</string>
+    <string name="pico_set_country_code">设置国家码</string>
+    <string name="pico_country_code_summary"></string>
+
+    <string name="pico_intelligent_awaken_title">智能唤醒</string>
+    <string name="pico_intelligent_awaken">智能唤醒模式</string>
+    <string name="pico_intelligent_awaken_warning_title">重启设备</string>
+    <string name="pico_intelligent_awaken_warning_message">切换模式需要重启设备，是否重启</string>
+    <string name="pico_intelligent_awaken_sum">灭屏后是否能够通过Psensor唤醒设备</string>
+    <string name="tob_category_title">特殊设置</string>
+    <string name="mul_key_action">组合键开关</string>
+    <string name="mul_key_action_summary">控制系统默认组合键是否生效</string>
+    <string name="wifi_auto_connect">wifi始终自动连接</string>
+    <string name="wifi_auto_connect_summary">无论wifi是否联网，始终自动回连wifi</string>
+    <string name="button2d_back_visible">2d模式返回按钮配置</string>
+    <string name="button2d_back_visible_summary">2d模式下返回按钮是否可见</string>
+    <string name="calibration_prompt_title">开机校准提示</string>
+    <string name="calibration_prompt_summary">开机后是否显示校准提示应用</string>
+    <string name="usb_boot_mode_title">USB插入启动模式</string>
+    <string name="usb_boot_mode_summary">插入USB时是否直接开机</string>
+    <string name="otg_charge_mode_title">OTG充电模式</string>
+    <string name="otg_charge_mode_summary">插入OTG设备时是否能够充电</string>
+    <string name="auto_recenter_mode_title">头盔自动校准模式</string>
+    <string name="auto_recenter_mode_summary">当带上头盔时是否自动校准方向</string>
+    <string name="auto_sleep_mode_title">自动休眠模式</string>
+    <string name="auto_sleep_mode_summary">遮挡Psensor,设备完全静止后自动休眠</string>
+
+    <string name="debug_category_title">调试设置</string>
+    <string name="pvr_debug_appfps">VR应用帧率显示</string>
+    <string name="pvr_debug_appfps_summary">VR应用内显示出当前运行帧率</string>
+    <string name="pvr_debug_sysstatus">系统负载情况</string>
+    <string name="pvr_debug_sysstatus_summary">实时显示系统的负载情况</string>
+    <string name="pvr_sdk_trackingmode_title">PVR手柄追踪模式（调试）</string>
+    <string name="pvr_sdk_trackingmode_dialog_title">可以进行PVR手柄追踪模式调试</string>
+    <string name="pvr_service_trackingmode_title">PVRService追踪模式（调试）</string>
+    <string name="pvr_service_trackingmode_dialog_title">可以进行PVRService追踪模式调试</string>
+    <string name="accept_system_updates">接受升级更新</string>
+    <string name="geo_magnetic_calibration_title">地磁校准</string>
+    <string name="geo_magnetic_calibration_summary">重启设备生效</string>
+    <string name="charging_while_using_title">设备亮屏充电</string>
+    <string name="charging_while_using_summary">开启后可能导致CPU过热</string>
+    <string name="pvr_out_proxy_mode_title">投屏时使用电视音源</string>
+    <string name="pvr_out_proxy_mode_summary">投屏之后会使用电视端扬声器</string>
+    <string name="pvr_display_permissions_prompt_title">是否显示应用权限提示窗口</string>
+    <string name="pvr_mono_cast_mode_title">投屏时全屏显示画面</string>
+    <string name="pvr_mono_cast_mode_summary">开启后全屏显示投射画面，关闭后投射原始画面 (1:1)</string>
+    <string name="device_status_info_title">设备信息</string>
+    <string name="special_settings_title">特殊设置</string>
+    <string name="debug_settings_title">调试设置</string>
+    <string name="commonly_used_settings_title">常用设置</string>
+    <string name="manual_cit_settings_title">手动CIT</string>
+    <string name="automatic_cit_settings_title">自动CIT</string>
+    <string name="country_region_code_title">国家/地区</string>
+    <string name="country_region_code_dialog_title">设置国家/地区</string>
+    <string name="country_region_code_default">未知</string>
+    <string name="device_info_not_available">不可用</string>
+    <string name="device_info_default">未知</string>
+    <string name="status_unavailable">不可用</string>
+    <string name="development_settings_title">开发者设置</string>
+    <string name="open_automatic_cit_failed">开启自动CIT失败</string>
+    <string name="log_settings_title">Log设置</string>
+    <string name="cit_settings_title">CIT</string>
+    <string name="status_bt_address">蓝牙地址</string>
+    <string name="status_wifi_mac_address">WLAN MAC 地址</string>
+    <string name="screen_off_delay_title">屏幕关闭超时</string>
+    <string name="system_sleep_delay_title">系统休眠超时</string>
+    <string name="pui_version">PUI版本</string>
+
+</resources>

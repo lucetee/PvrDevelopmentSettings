@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="log_settings"
+        android:title="@string/log_settings_title"
+        android:summary="@string/log_settings_title" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.picovr.logcatchsettings"
+            android:targetClass="com.picovr.logcatchsettings.MainActivity" />
+    </Preference>
+
+    <Preference
+        android:key="country_region_code"
+        android:title="@string/country_region_code_title"
+        android:summary="@string/device_info_default" />
+
+    <SwitchPreference
+        android:key="wake_up_mode"
+        android:title="@string/pico_intelligent_awaken"
+        android:summary="@string/pico_intelligent_awaken_sum"/>
+
+    <Preference
+        android:key="screen_off_delay"
+        android:title="@string/screen_off_delay_title" />
+
+    <Preference
+        android:key="system_sleep_delay"
+        android:title="@string/system_sleep_delay_title" />
+
+    <SwitchPreference
+        android:key="accept_system_updates"
+        android:title="@string/accept_system_updates"/>
+
+    <SwitchPreference
+        android:key="geo_magnetic_calibration"
+        android:title="@string/geo_magnetic_calibration_title"
+        android:summary="@string/geo_magnetic_calibration_summary"/>
+
+    <SwitchPreference
+        android:key="mul_key_action"
+        android:title="@string/mul_key_action"
+        android:summary="@string/mul_key_action_summary"/>
+    <SwitchPreference
+        android:key="button2d_back_visible"
+        android:title="@string/button2d_back_visible"
+        android:summary="@string/button2d_back_visible_summary"/>
+    <SwitchPreference
+        android:key="calibration_prompt"
+        android:title="@string/calibration_prompt_title"
+        android:summary="@string/calibration_prompt_summary"/>
+    <SwitchPreference
+        android:key="usb_boot_mode"
+        android:title="@string/usb_boot_mode_title"
+        android:summary="@string/usb_boot_mode_summary"/>
+    <SwitchPreference
+        android:key="otg_charge_mode"
+        android:title="@string/otg_charge_mode_title"
+        android:summary="@string/otg_charge_mode_summary"/>
+    <SwitchPreference
+        android:key="auto_recenter_mode"
+        android:title="@string/auto_recenter_mode_title"
+        android:summary="@string/auto_recenter_mode_summary"/>
+    <SwitchPreference
+        android:key="auto_sleep_mode"
+        android:title="@string/auto_sleep_mode_title"
+        android:summary="@string/auto_sleep_mode_summary"/>
+    <SwitchPreference
+        android:key="charging_while_using"
+        android:title="@string/charging_while_using_title"
+        android:summary="@string/charging_while_using_summary"/>
+    <SwitchPreference
+        android:key="enable_wfd_sink_device_speaker"
+        android:title="@string/pvr_out_proxy_mode_title"
+        android:summary="@string/pvr_out_proxy_mode_summary"/>
+    <SwitchPreference
+        android:key="display_permissions_prompt"
+        android:title="@string/pvr_display_permissions_prompt_title"/>
+    <SwitchPreference
+        android:key="monocular_miracast_display_mode"
+        android:title="@string/pvr_mono_cast_mode_title"
+        android:summary="@string/pvr_mono_cast_mode_summary"/>
+</PreferenceScreen>

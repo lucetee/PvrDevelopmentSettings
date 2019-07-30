@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">PvrDevelopmentSettings</string>
+
+    <string name="cit_settings_title">CIT</string>
+    <string name="device_status_info_title">Device info</string>
+    <string name="special_settings_title">Special settings</string>
+    <string name="debug_settings_title">Debug settings</string>
+    <string name="commonly_used_settings_title">Commonly used settings</string>
+
+    <string name="manual_cit_settings_title">Manual CIT</string>
+    <string name="automatic_cit_settings_title">Automatic CIT</string>
+    <string name="open_automatic_cit_failed">Open Automatic CIT failed</string>
+
+    <string name="hardware_version_title">VR Headset Hardware Version</string>
+    <string name="software_version_title">VR Headset Software Version</string>
+    <string name="log_settings_title">Log settings</string>
+    <string name="country_region_code_title">Country/Region Code</string>
+    <string name="country_region_code_dialog_title">Set Country/Region Code</string>
+    <string name="country_region_code_default">Unknown</string>
+
+    <string name="device_info_not_available">Not available</string>
+    <string name="device_info_default">Unknown</string>
+    <string name="status_unavailable">Unavailable</string>
+
+    <string name="status_bt_address">Bluetooth address</string>
+    <string name="status_wifi_mac_address">Wi\u2011Fi MAC address</string>
+    <string name="development_settings_title">Development settings</string>
+
+    <string name="pico_intelligent_awaken_title">Smart wake</string>
+    <string name="pico_intelligent_awaken">Smart wake mode</string>
+    <string name="pico_intelligent_awaken_warning_title">Reboot the device</string>
+    <string name="pico_intelligent_awaken_warning_message">Switch mode requires restarting the device, whether to restart</string>
+    <string name="pico_intelligent_awaken_sum">Can the device be awakened by Psensor after the screen is off</string>
+    <string name="screen_off_delay_title">Screen Off Timeout</string>
+    <string name="system_sleep_delay_title">System Sleep Timeout</string>
+    <string name="accept_system_updates">Accept upgrade and updates</string>
+    <string name="geo_magnetic_calibration_title">GeoMagnetic calibration</string>
+    <string name="geo_magnetic_calibration_summary">Reboot needed</string>
+
+    <string name="pui_version">PUI Version</string>
+    <string name="version_info">Version Info</string>
+    <string name="hmd_serial_number">VR Headset Serial Number</string>
+    <string name="box_serial_number">VR Gamepad Serial Number</string>
+    <string name="pico_cit_category">CIT</string>
+    <string name="pico_automated_cit_keys">Automated CIT</string>
+    <string name="pico_manumotive_cit_keys">Manumotive CIT</string>
+    <string name="open_cit_keys_fatal">Can not open CIT</string>
+    <string name="logcatch_title">Log settings</string>
+    <string name="reset_phone">reset_phone</string>
+    <string name="pico_reset_phone_title">reset_phone</string>
+    <string name="pico_reset_phone_sum">reset device,keep sdCard contents</string>
+
+    <string name="hmd_category_title">HMD Settings</string>
+    <string name="hmd_switch_onoff">HMD Switch Setting</string>
+    <string name="hmd_switch_onoff_summary">auto switch when different hmd is connected(will auto reboot)</string>
+    <string name="pico_country_code">Country Code</string>
+    <string name="pico_set_country_code">Set Country Code</string>
+    <string name="pico_country_code_summary" translatable="false"></string>
+
+    <string name="tob_category_title">Special Settings</string>
+    <string name="mul_key_action">Shortcut Switch</string>
+    <string name="mul_key_action_summary">Whether the default shortcuts of the control system are functional</string>
+    <string name="wifi_auto_connect">Always auto-connect to WiFi</string>
+    <string name="wifi_auto_connect_summary">Whether the WiFi can access the network or not, always auto-connect to WiFi</string>
+    <string name="button2d_back_visible">Settings of the return button of 2d mode</string>
+    <string name="button2d_back_visible_summary">Whether the return button is visible in 2d mode or not</string>
+    <string name="calibration_prompt_title">Power-on calibration prompt</string>
+    <string name="calibration_prompt_summary">Whether calibration prompt should be displayed after starting up</string>
+    <string name="usb_boot_mode_title">USB plug-in boot mode</string>
+    <string name="usb_boot_mode_summary">Whether to boot directly when USB is inserted</string>
+    <string name="otg_charge_mode_title">OTG charging mode</string>
+    <string name="otg_charge_mode_summary">Can the OTG device be charged when plugged in</string>
+    <string name="auto_recenter_mode_title">auto reset when put on HMD</string>
+    <string name="auto_recenter_mode_summary">it will be auto reset when you put on your HMD</string>
+    <string name="auto_sleep_mode_title">auto sleep mode</string>
+    <string name="auto_sleep_mode_summary">cover Psensor,The device will sleep automatically when it is completely stationary</string>
+    <string name="debug_category_title">Debug Settings</string>
+    <string name="pvr_debug_appfps">Info of the VR frame rate</string>
+    <string name="pvr_debug_appfps_summary">The current frame rate is shown on the VR application</string>
+    <string name="pvr_debug_sysstatus">Info of the system capacity</string>
+    <string name="pvr_debug_sysstatus_summary">Real-time info of the system capacity</string>
+    <string name="pvr_sdk_trackingmode_title">Tracking mode of the PVR controllers (debug)</string>
+    <string name="pvr_sdk_trackingmode_dialog_title">Debug of the PVR controllers tracking mode is available</string>
+    <string name="pvr_service_trackingmode_title">PVRService tracking mode (debug)</string>
+    <string name="pvr_service_trackingmode_dialog_title">You can debug the PVRService trace mode</string>
+    <string name="pvr_display_fps_title">HMD Display Mode</string>
+    <string name="pvr_display_fps_dialog_title">HMD Display Mode List</string>
+    <string name="charging_while_using_title">Charging while using</string>
+    <string name="charging_while_using_summary">CPU may overheat after opening</string>
+    <string name="pvr_out_proxy_mode_title">WFD sonification mode</string>
+    <string name="pvr_out_proxy_mode_summary">speak no sonification when WFD Work</string>
+    <string name="pvr_display_permissions_prompt_title">Do you want to display the app permission prompt window</string>
+    <string name="pvr_mono_cast_mode_title">wifi display in full screen</string>
+    <string name="pvr_mono_cast_mode_summary">wifi display show in full screen when switch on,Display the original screen(1:1) when off</string>
+
+</resources>

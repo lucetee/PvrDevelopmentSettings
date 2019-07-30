@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_off_delay_entries">
+        <item>立即</item>
+        <item>3秒</item>
+        <item>10秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>永不</item>
+    </string-array>
+
+    <string-array name="system_sleep_delay_entries">
+        <item>立即</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item><!--Default Value -->
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>永不</item>
+    </string-array>
+</resources>

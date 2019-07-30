@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="cit_settings"
+        android:title="@string/cit_settings_title"
+        android:summary="@string/cit_settings_title"
+        android:fragment="com.pvr.developmentsettings.cit.CITSettings" />
+    <Preference
+        android:key="device_info_settings"
+        android:title="@string/device_status_info_title"
+        android:summary="@string/device_status_info_title"
+        android:fragment="com.pvr.developmentsettings.deviceinfo.DeviceInfoSettings" />
+    <Preference
+        android:key="commonly_used_settings"
+        android:title="@string/commonly_used_settings_title"
+        android:summary="@string/commonly_used_settings_title"
+        android:fragment="com.pvr.developmentsettings.commonlyused.CommonlyUsedSettings" />
+    <!--<Preference
+        android:key="development_settings"
+        android:title="@string/development_settings_title"
+        android:summary="@string/development_settings_title"
+        android:fragment="com.pvr.developmentsettings.development.DevelopmentSettingsTest"/>
+    <Preference
+        android:key="special_settings"
+        android:title="@string/special_settings_title"
+        android:summary="@string/special_settings_title"
+        android:fragment="com.pvr.developmentsettings.tob.SpecialSettings" />-->
+    <Preference
+        android:key="debug_settings"
+        android:title="@string/debug_settings_title"
+        android:summary="@string/debug_settings_title"
+        android:fragment="com.pvr.developmentsettings.debug.DebugSettings" />
+</PreferenceScreen>
